@@ -1,0 +1,1501 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)file:///C:/Users/ldemartins/Desktop/Plano_Acao_Abril_Caminhonete.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Plano de Acao Abril 2026 - CAMINHONETEECIA</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f4f4f4;color:#333;font-size:14px;}
+.header{background:#1a1a2e;color:#fff;}
+.hband{background:#FFE600;height:6px;}
+.hinner{max-width:1200px;margin:auto;padding:22px 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+.hinner h1{font-size:22px;font-weight:700;}
+.hinner .sub{font-size:12px;color:#aaa;margin-top:4px;}
+.htag{background:#FFE600;color:#1a1a2e;padding:6px 16px;border-radius:20px;font-weight:700;font-size:13px;}
+.wrap{max-width:1200px;margin:auto;padding:24px 28px;}
+.alert-box{background:#FFF3CD;border-left:5px solid #FFA000;border-radius:8px;padding:14px 18px;margin-bottom:24px;font-size:13px;}
+.alert-box strong{color:#E65100;}
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px;margin-bottom:28px;}
+.kpi{background:#fff;border-radius:10px;padding:18px 16px;box-shadow:0 2px 8px rgba(0,0,0,.07);border-top:4px solid #FFE600;}
+.kpi.red{border-top-color:#E53935;}.kpi.green{border-top-color:#00A650;}.kpi.blue{border-top-color:#1565C0;}.kpi.orange{border-top-color:#FF6F00;}.kpi.purple{border-top-color:#7B1FA2;}
+.kpi .lbl{font-size:10px;text-transform:uppercase;color:#999;letter-spacing:.5px;margin-bottom:8px;}
+.kpi .val{font-size:22px;font-weight:700;}
+.kpi .hint{font-size:11px;color:#777;margin-top:5px;}
+.section{margin-bottom:36px;}
+.sec-header{display:flex;align-items:center;gap:12px;margin-bottom:14px;}
+.sec-header h2{font-size:16px;font-weight:700;}
+.sec-num{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:12px;flex-shrink:0;background:#FFE600;color:#333;}
+.sec-num.red{background:#E53935;color:#fff;}.sec-num.orange{background:#FF6F00;color:#fff;}.sec-num.green{background:#00A650;color:#fff;}.sec-num.blue{background:#1565C0;color:#fff;}.sec-num.purple{background:#7B1FA2;color:#fff;}
+.tbox{background:#fff;border-radius:10px;overflow-x:auto;box-shadow:0 2px 8px rgba(0,0,0,.07);}
+table{width:100%;border-collapse:collapse;font-size:12.5px;}
+thead tr{background:#1a1a2e;color:#fff;}
+thead th{padding:9px 12px;text-align:left;font-weight:600;white-space:nowrap;}
+tbody tr{border-bottom:1px solid #f0f0f0;transition:background .12s;}
+tbody tr:hover{background:#FFFDE7;}
+tbody td{padding:8px 12px;}
+td.num{text-align:right;}
+td.td-title{max-width:400px;font-weight:500;line-height:1.3;}
+td.urg{color:#C62828;font-weight:700;text-align:right;}
+td.warn{color:#E65100;font-weight:700;text-align:right;}
+.up{color:#2E7D32;font-weight:700;}.dn{color:#C62828;font-weight:700;}.nt{color:#777;}
+.badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;}
+.badge.green{background:#C8E6C9;color:#2E7D32;}.badge.orange{background:#FFE0B2;color:#E65100;}.badge.red{background:#FFCDD2;color:#C62828;}.badge.blue{background:#BBDEFB;color:#1565C0;}.badge.yellow{background:#FFF9C4;color:#F57F17;}.badge.gray{background:#EEE;color:#666;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.card{background:#fff;border-radius:10px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.07);}
+/* TIMELINE */
+.timeline{position:relative;padding-left:22px;}
+.timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:#f0f0f0;}
+.tl-group{margin-bottom:10px;}
+.tl-label{font-size:11px;font-weight:700;color:#999;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;padding-left:4px;}
+.tl-item{position:relative;background:#fff;border-radius:8px;padding:9px 14px;margin-bottom:5px;box-shadow:0 1px 4px rgba(0,0,0,.07);display:flex;align-items:center;gap:12px;}
+.tl-item::before{content:'';position:absolute;left:-17px;top:50%;transform:translateY(-50%);width:10px;height:10px;border-radius:50%;background:#FFE600;border:2px solid #fff;box-shadow:0 0 0 2px #FFE600;}
+.tl-item.critical::before{background:#E53935;box-shadow:0 0 0 2px #E53935;}.tl-item.warning::before{background:#FF6F00;box-shadow:0 0 0 2px #FF6F00;}.tl-item.caution::before{background:#FFB300;box-shadow:0 0 0 2px #FFB300;}
+.tl-dot-date{min-width:42px;font-size:12px;font-weight:700;color:#555;}
+.tl-id{min-width:80px;font-size:11px;color:#1565C0;font-weight:600;}
+.tl-title{flex:1;font-size:12px;font-weight:500;}
+.tl-stock,.tl-pace{min-width:80px;text-align:right;font-size:11px;color:#999;}
+.tl-gmv{min-width:90px;text-align:right;font-size:12px;font-weight:700;}
+.tl-gmv.r{color:#C62828;}.tl-gmv.o{color:#E65100;}.tl-gmv.y{color:#F57F17;}
+.checklist{background:#fff;border-radius:10px;padding:20px 24px;box-shadow:0 2px 8px rgba(0,0,0,.07);}
+.ci{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid #f5f5f5;align-items:flex-start;}
+.ci:last-child{border:none;}
+.ci-icon{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;flex-shrink:0;margin-top:1px;}
+.ci-icon.r{background:#FFCDD2;}.ci-icon.o{background:#FFE0B2;}.ci-icon.g{background:#C8E6C9;}
+.ci-text strong{font-size:13px;}.ci-text p{font-size:12px;color:#777;margin-top:3px;line-height:1.4;}
+.meta-bar{background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;border-radius:12px;padding:22px 28px;display:flex;gap:28px;flex-wrap:wrap;align-items:center;}
+.footer{background:#1a1a2e;color:#aaa;text-align:center;padding:14px;font-size:11px;margin-top:40px;}
+.footer span{color:#FFE600;}
+@media(max-width:700px){.two-col{grid-template-columns:1fr;}.tl-pace,.tl-stock{display:none;}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="hband"></div>
+  <div class="hinner">
+    <div>
+      <h1>Plano de Acao - Abril 2026</h1>
+      <div class="sub">CAMINHONETEECIA · Pecas de Caminhonete · Gerado em 08/04/2026</div>
+    </div>
+    <div class="htag">8 dias decorridos · 22 dias restantes</div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="alert-box">
+    <strong>Cenario Abril:</strong> Com 8 dias decorridos, a projecao do mes e de <strong>R$ 605.595</strong>
+    (-42.5% vs Marco). Ha <strong>100</strong> itens pausados com GMV em Marco,
+    <strong>145</strong> ativos zerados e <strong>37</strong> itens com risco de ruptura de estoque.
+    Visitas projetadas: 39,176 (-32.0% vs Marco).
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="lbl">GMV Marco</div>
+      <div class="val">R$ 1.052.865</div>
+      <div class="hint">Referencia do mes</div>
+    </div>
+    <div class="kpi red">
+      <div class="lbl">Projecao Abril</div>
+      <div class="val">R$ 605.595</div>
+      <div class="hint">▼ 42.5% vs Marco</div>
+    </div>
+    <div class="kpi red">
+      <div class="lbl">Pausados c/ GMV</div>
+      <div class="val">100</div>
+      <div class="hint">R$ 255.686 em Marco</div>
+    </div>
+    <div class="kpi red">
+      <div class="lbl">Ativos Zerados</div>
+      <div class="val">145</div>
+      <div class="hint">R$ 415.918 em risco</div>
+    </div>
+    <div class="kpi orange">
+      <div class="lbl">Ruptura em Abril</div>
+      <div class="val">37</div>
+      <div class="hint">R$ 74.548 GMV risco</div>
+    </div>
+    <div class="kpi blue">
+      <div class="lbl">Visitas (proj.)</div>
+      <div class="val">39,176</div>
+      <div class="hint">Marco: 57,601</div>
+    </div>
+    <div class="kpi purple">
+      <div class="lbl">CVR Medio Abril</div>
+      <div class="val">17.7%</div>
+      <div class="hint">Marco: 9.8%</div>
+    </div>
+  </div>
+
+  <!-- SECAO 1: PAUSADOS -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num red">1</div>
+      <h2>URGENTE - Reativar Itens Pausados/Fechados com GMV em Marco</h2>
+    </div>
+    <p style="color:#777;font-size:12px;margin-bottom:12px;">
+      100 itens geraram <strong>R$ 255.686</strong> em Marco mas estao pausados ou fechados.
+    </p>
+    <div class="tbox">
+      <table>
+        <thead><tr><th>Item ID</th><th>Item</th><th>Status</th><th>Logistica</th><th>Estoque</th><th>GMV Marco</th><th>SI Marco</th><th>Acao</th></tr></thead>
+        <tbody><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2968791879</td>
+          <td class="td-title">Turbina Motor Multijet Toro Compass Renegade 2.0 2014/2020</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge green">FBM</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 42.230</td>
+          <td class="num">12.4</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3239975457</td>
+          <td class="td-title">Bomba De Alta Fiat Toro 2.0 Renegade 2.0 Compass 2.0 Diesel</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 24.153</td>
+          <td class="num">4.9</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3941710279</td>
+          <td class="td-title">Bomba Alta Pressao Bmw X5 Xdrive 30d 2013 2014 2015 A 2024</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 23.888</td>
+          <td class="num">2.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5272088304</td>
+          <td class="td-title">Kit 8 Balancim Escape Admissão Ranger  3.0 2004 2005 A 2012</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 12.425</td>
+          <td class="num">8.5</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2060775648</td>
+          <td class="td-title">Bico Injetor Amarok 2.0 2010 2011 Original Bosch Novo</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 11.214</td>
+          <td class="num">6.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4147255767</td>
+          <td class="td-title">Bico Injetor Vw Amarok 2.0 2010 A 2011 Original Bosch</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 7.832</td>
+          <td class="num">4.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3347210091</td>
+          <td class="td-title">Cabeçote Frontier Yd25 2.5 16v 2007 2008 2009 2010 2011</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 7.022</td>
+          <td class="num">3.9</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4166631381</td>
+          <td class="td-title">Kit Bomba De Óleo E Correia Amarok 2.0 Tdi 2010 2011 A 2021</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 6.931</td>
+          <td class="num">13.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3591010275</td>
+          <td class="td-title">Kit 4 Bico Injetor S10 Trailblazer 2.8 200cv 2014 A 2022</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 5.966</td>
+          <td class="num">1.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">6419231816</td>
+          <td class="td-title">Bico Injetor S10 Trailblazer 2.8 Diesel 2012 A 2013</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 5.544</td>
+          <td class="num">4.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">6296317172</td>
+          <td class="td-title">Semi Eixo Dianteiro Toro 2.0 2016 A 2026 Câmbio Automático</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 5.409</td>
+          <td class="num">6.8</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4178138515</td>
+          <td class="td-title">Kit 4 Pneus Yokohama A/t G015 255/55r19 111h Aro 19 Amarok</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge gray">Otro</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 5.160</td>
+          <td class="num">1.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4403068163</td>
+          <td class="td-title">Bomba Alta Pressão Frontier Xterra 2.8 Mwm 2005 A 2012</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 4.836</td>
+          <td class="num">1.0</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">6000862068</td>
+          <td class="td-title">Pneu Aro 16 Aplus Mt 265/75r16 10pr 123/120q Tl Q</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 4.767</td>
+          <td class="num">3.5</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4092472127</td>
+          <td class="td-title">Kit Embreagem D20 1985 A 1996 Silverado 1997 A 2002 Veraneio</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 4.142</td>
+          <td class="num">4.8</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3930786729</td>
+          <td class="td-title">Kit Braço Pitman + Auxiliar S10 Blazer 1996 1998 1999 A 2011</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 4.061</td>
+          <td class="num">11.6</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2636803240</td>
+          <td class="td-title">Bico Injetor S10 Trailblazer 2.8 Diesel 2012/2013 Bosch</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 3.707</td>
+          <td class="num">1.8</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5323598082</td>
+          <td class="td-title">Manga Eixo Dianteiro Esquerdo Hilux Sw4 2.5 16v 2004 A 2015</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 3.043</td>
+          <td class="num">3.9</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4104112369</td>
+          <td class="td-title">Coroa E Pinhão A20 C20 D20 F1000 13x41 1985 1986 1987 À 1996</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 2.942</td>
+          <td class="num">3.8</td>
+          <td class="num urg">REATIVAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3832847452</td>
+          <td class="td-title">Par Pivô Dianteiro Ld E Le Argo Cronos Strada 2017 A 2023</td>
+          <td><span class="badge orange">Pausado</span></td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">0</td>
+          <td class="num">R$ 2.279</td>
+          <td class="num">14.5</td>
+          <td class="num urg">REATIVAR</td>
+        </tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECAO 2: ZERARAM -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num orange">2</div>
+      <h2>Monitorar - Ativos sem Venda em Abril (GMV Marco &gt; R$500)</h2>
+    </div>
+    <p style="color:#777;font-size:12px;margin-bottom:12px;">
+      145 itens ativos geraram R$ 415.918 em Marco mas ainda nao venderam em Abril.
+      Revisar preco, titulo e visibilidade do anuncio.
+    </p>
+    <div class="tbox">
+      <table>
+        <thead><tr><th>Item ID</th><th>Item</th><th>Logistica</th><th>Estoque</th><th>GMV Marco</th><th>GMV Abril</th><th>Acao</th></tr></thead>
+        <tbody><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3945670725</td>
+          <td class="td-title">Cabeçote Ranger 3.2 20v 5cil 4x4 2012 2013 2014 2015 A 2020</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">21</td>
+          <td class="num">R$ 30.399</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3603979911</td>
+          <td class="td-title">Bomba De Alta Pressão Novo Bosch S10 2.8 180cv 0445010259</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 26.217</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3057441153</td>
+          <td class="td-title">Bomba Alta Pressão Range Rover Discovery Iv 3.0 V6 2009-2020</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">2</td>
+          <td class="num">R$ 20.500</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5534096826</td>
+          <td class="td-title">Chip De Potência Vortex1 Digipower Ranger 3.0 V6 2024 A 2026</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">11</td>
+          <td class="num">R$ 19.628</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4389597878</td>
+          <td class="td-title">Bico Injetor Novo Bmw X5 3.0 328d 2.0 2014 A 2018 0445110616</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">26</td>
+          <td class="num">R$ 13.778</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2982280048</td>
+          <td class="td-title">Bico Injetor Bmw X5 F15 3.0 Diesel Bosch 0445110597</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">26</td>
+          <td class="num">R$ 11.575</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4112258385</td>
+          <td class="td-title">Bico Injetor Bosch 2.8 Mwm Xterra S10 Frontier Blazer</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">6</td>
+          <td class="num">R$ 10.320</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5997259310</td>
+          <td class="td-title">Bico Injetor Frontier 2.5 190cv 2013/2016</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">15</td>
+          <td class="num">R$ 10.033</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1935670500</td>
+          <td class="td-title">Cabeçote Amarok 2.0 16v 2010 2011 2012 2013 2014 2015 A 2022</td>
+          <td><span class="badge green">FBM</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 8.907</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2750437814</td>
+          <td class="td-title">Bomba Combustivel Vw Amarok 2.0 16v Tdi 2010/2021</td>
+          <td><span class="badge green">FBM</span></td>
+          <td class="num">2</td>
+          <td class="num">R$ 8.729</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4112247979</td>
+          <td class="td-title">Bico Injetor Hilux Sw4 3.0 1kd 2005 2006 2007 2008 2009 2010</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">38</td>
+          <td class="num">R$ 7.568</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4404090087</td>
+          <td class="td-title">Cabeçote Corsa Montana Meriva 1.6 1.8 8v 98/12 Tucho Grosso</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 7.507</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4521467380</td>
+          <td class="td-title">Kit 4 Bico Injetor L200 Triton Pajero Full 3.2 2012 A 2018</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 6.778</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4463044632</td>
+          <td class="td-title">Eixo Virabrequim Amarok 2.0 16v Manual 03l105021d Novo</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">11</td>
+          <td class="num">R$ 6.381</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4313555515</td>
+          <td class="td-title">Bico Injetor S10 Trailblazer 2.8 200cv 2014 2015 2016 A 2022</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">1</td>
+          <td class="num">R$ 5.966</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4148787557</td>
+          <td class="td-title">Turbina Motor Hilux 2.8 16v Euro 6 Motor 2022 Em Diante</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">2</td>
+          <td class="num">R$ 5.910</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2736630504</td>
+          <td class="td-title">Turbina Pajero Sport Full 2.8 Motor 4m40 2001 2002 2003 2004</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">4</td>
+          <td class="num">R$ 5.337</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5324733492</td>
+          <td class="td-title">Eixo Virabrequim L200 Triton Sport 2.4 16v 4n15 2016 A 2025</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">4</td>
+          <td class="num">R$ 5.199</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2701309804</td>
+          <td class="td-title">Bico Injetor Novo F250 F350 Cargo Worker 3.9 5.9 2006/2012</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">14</td>
+          <td class="num">R$ 5.190</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2748958256</td>
+          <td class="td-title">Cubo Roda Dianteiro Rolamento S10 Trailblazer 4x4 2017/2022</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">6</td>
+          <td class="num">R$ 5.187</td>
+          <td class="num dn">R$ 0</td>
+          <td class="num warn">REVISAR</td>
+        </tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECAO 3: RUPTURA -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num orange">3</div>
+      <h2>Risco de Ruptura - Itens que Vao Acabar o Estoque em Abril</h2>
+    </div>
+    <p style="color:#777;font-size:12px;margin-bottom:10px;">
+      37 itens ativos irao zerar o estoque antes do fim do mes com o pace atual de vendas.
+      GMV total em risco: <strong style="color:#C62828;">R$ 74.548</strong>
+    </p>
+    <div style="display:flex;gap:14px;margin-bottom:16px;flex-wrap:wrap;">
+      <div style="background:#FFCDD2;border-radius:8px;padding:12px 20px;flex:1;min-width:150px;">
+        <div style="font-size:10px;color:#C62828;font-weight:700;text-transform:uppercase;">Critico (0-3 dias)</div>
+        <div style="font-size:24px;font-weight:900;color:#C62828;">4</div>
+        <div style="font-size:11px;color:#999;">R$ 7.910</div>
+      </div>
+      <div style="background:#FFE0B2;border-radius:8px;padding:12px 20px;flex:1;min-width:150px;">
+        <div style="font-size:10px;color:#E65100;font-weight:700;text-transform:uppercase;">Alerta (4-10 dias)</div>
+        <div style="font-size:24px;font-weight:900;color:#E65100;">15</div>
+        <div style="font-size:11px;color:#999;">R$ 43.353</div>
+      </div>
+      <div style="background:#FFF9C4;border-radius:8px;padding:12px 20px;flex:1;min-width:150px;">
+        <div style="font-size:10px;color:#F57F17;font-weight:700;text-transform:uppercase;">Atencao (11-22 dias)</div>
+        <div style="font-size:24px;font-weight:900;color:#F57F17;">18</div>
+        <div style="font-size:11px;color:#999;">R$ 23.285</div>
+      </div>
+    </div>
+    <div style="background:#fff;border-radius:10px;padding:18px 22px;box-shadow:0 2px 8px rgba(0,0,0,.07);">
+      <div style="display:flex;gap:16px;font-size:11px;color:#999;font-weight:600;padding-bottom:8px;border-bottom:1px solid #f0f0f0;margin-bottom:10px;">
+        <span style="min-width:42px;">Data</span><span style="min-width:80px;">Item ID</span><span style="flex:1;">Item</span>
+        <span style="min-width:80px;text-align:right;">Estoque</span>
+        <span style="min-width:80px;text-align:right;">Pace/dia</span>
+        <span style="min-width:90px;text-align:right;">GMV Risco</span>
+      </div>
+      <div class="timeline"><div class="tl-group"><div class="tl-label">🔴 Critico - Acabam em ate 3 dias</div><div class="tl-item critical">
+              <div class="tl-dot-date">09/04</div>
+              <div class="tl-id">3785375173</div>
+              <div class="tl-title">Fluido Oleo De Freio Dot 4 Bosch 500ml</div>
+              <div class="tl-stock">Estoque: 8</div>
+              <div class="tl-pace">4.81 un/dia</div>
+              <div class="tl-gmv r">R$ 2.956</div>
+            </div><div class="tl-item critical">
+              <div class="tl-dot-date">10/04</div>
+              <div class="tl-id">2079507782</div>
+              <div class="tl-title">Fluido Oleo De Freio Dot 4 Original Bosch 500ml</div>
+              <div class="tl-stock">Estoque: 8</div>
+              <div class="tl-pace">3.85 un/dia</div>
+              <div class="tl-gmv r">R$ 2.342</div>
+            </div><div class="tl-item critical">
+              <div class="tl-dot-date">10/04</div>
+              <div class="tl-id">4355143769</div>
+              <div class="tl-title">Tubo Retorno Combustivel Toro Compass Renegade 2016 A 2</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.37 un/dia</div>
+              <div class="tl-gmv r">R$ 876</div>
+            </div><div class="tl-item critical">
+              <div class="tl-dot-date">11/04</div>
+              <div class="tl-id">4166809177</div>
+              <div class="tl-title">Biela Frontier 2.3 2018 A 2022 Master 2.3 2013 2014 A 2</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.33 un/dia</div>
+              <div class="tl-gmv r">R$ 1.736</div>
+            </div></div><div class="tl-group"><div class="tl-label">🟠 Alerta - Acabam entre 4 e 10 dias</div><div class="tl-item warning">
+              <div class="tl-dot-date">11/04</div>
+              <div class="tl-id">3262331869</div>
+              <div class="tl-title">Pastilha Freio Dianteira Pajero Io Tr4 1998 1999 2000 A</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.32 un/dia</div>
+              <div class="tl-gmv o">R$ 732</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">11/04</div>
+              <div class="tl-id">4459887343</div>
+              <div class="tl-title">Reparo Caixa Satélite Traseiro S10 Blazer 2.8 2001 A 20</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.27 un/dia</div>
+              <div class="tl-gmv o">R$ 2.433</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">12/04</div>
+              <div class="tl-id">2720589685</div>
+              <div class="tl-title">Pastilha Freio Dianteiro L200 2.5 Turbo Gls 1997 A 2007</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.22 un/dia</div>
+              <div class="tl-gmv o">R$ 448</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">12/04</div>
+              <div class="tl-id">2126044441</div>
+              <div class="tl-title">Kit 4 Bico Injetor S10 Blazer Frontier 2.8 Mwm 2005 A 2</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.21 un/dia</div>
+              <div class="tl-gmv o">R$ 20.712</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">14/04</div>
+              <div class="tl-id">5514505348</div>
+              <div class="tl-title">Rolamento Cardan Duster Oroch 2012 2013 2014 2015 A 202</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.33 un/dia</div>
+              <div class="tl-gmv o">R$ 783</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">14/04</div>
+              <div class="tl-id">3470402131</div>
+              <div class="tl-title">Coletor Admissão Toro Renegade Compass 2.0 Diesel 2016-</div>
+              <div class="tl-stock">Estoque: 7</div>
+              <div class="tl-pace">1.10 un/dia</div>
+              <div class="tl-gmv o">R$ 9.727</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">14/04</div>
+              <div class="tl-id">1901264398</div>
+              <div class="tl-title">Cilindro Mestre Duplo A10 D10 A20 C20 D20 Veraneio 1980</div>
+              <div class="tl-stock">Estoque: 3</div>
+              <div class="tl-pace">0.45 un/dia</div>
+              <div class="tl-gmv o">R$ 2.520</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">16/04</div>
+              <div class="tl-id">1890163374</div>
+              <div class="tl-title">Pivo Inferior Ld Le A20 A40 C20 C40 D20 Bonanza Silvera</div>
+              <div class="tl-stock">Estoque: 6</div>
+              <div class="tl-pace">0.67 un/dia</div>
+              <div class="tl-gmv o">R$ 1.196</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">16/04</div>
+              <div class="tl-id">5813014266</div>
+              <div class="tl-title">Coluna Direção Eixo Inferior S10 2.4 2.5 2.8 2012 A 202</div>
+              <div class="tl-stock">Estoque: 3</div>
+              <div class="tl-pace">0.34 un/dia</div>
+              <div class="tl-gmv o">R$ 1.164</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">16/04</div>
+              <div class="tl-id">4232807975</div>
+              <div class="tl-title">Hélice Intercooler 6 Pás L200 2.5 Pajero 2.5 2003 A 201</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv o">R$ 157</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">17/04</div>
+              <div class="tl-id">4133078193</div>
+              <div class="tl-title">Bomba De Combustível Ranger 2.5 16v Flex 2013 2014 A 20</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv o">R$ 774</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">17/04</div>
+              <div class="tl-id">3063180779</div>
+              <div class="tl-title">Kit Lampada H7 12v 55w Xenon Blue 12v</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.22 un/dia</div>
+              <div class="tl-gmv o">R$ 336</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">17/04</div>
+              <div class="tl-id">4071304623</div>
+              <div class="tl-title">Sensor Abs Traseiro Direto Ranger 2013 2014 2015 2016 A</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv o">R$ 242</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">17/04</div>
+              <div class="tl-id">4181122373</div>
+              <div class="tl-title">Par Tambor Freio Traseiro Ranger 2012 A 2023 Xm341126bc</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv o">R$ 656</div>
+            </div><div class="tl-item warning">
+              <div class="tl-dot-date">17/04</div>
+              <div class="tl-id">1897736360</div>
+              <div class="tl-title">Bico Injetor Completo Frontier Motor 2.5 2008/2011</div>
+              <div class="tl-stock">Estoque: 1</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv o">R$ 1.473</div>
+            </div></div><div class="tl-group"><div class="tl-label">🟡 Atencao - Acabam entre 11 e 22 dias</div><div class="tl-item caution">
+              <div class="tl-dot-date">18/04</div>
+              <div class="tl-id">5441002378</div>
+              <div class="tl-title">Biela Frontier 2.5 16v 2008 2009 2010 2011 2012 2013 A </div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.19 un/dia</div>
+              <div class="tl-gmv y">R$ 436</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">18/04</div>
+              <div class="tl-id">2141978518</div>
+              <div class="tl-title">Caixa Direção Hidráulica Hilux 3.0 4x4 2008 2009 2010 2</div>
+              <div class="tl-stock">Estoque: 6</div>
+              <div class="tl-pace">0.56 un/dia</div>
+              <div class="tl-gmv y">R$ 5.778</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">19/04</div>
+              <div class="tl-id">5666119572</div>
+              <div class="tl-title">Silicone Spray Lubrificante 300ml Sieger Automotivo Car</div>
+              <div class="tl-stock">Estoque: 8</div>
+              <div class="tl-pace">0.71 un/dia</div>
+              <div class="tl-gmv y">R$ 178</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">20/04</div>
+              <div class="tl-id">5105751122</div>
+              <div class="tl-title">Eixo Virabrequim Frontier 2.5 16v 2012 2013 2014 2015 2</div>
+              <div class="tl-stock">Estoque: 4</div>
+              <div class="tl-pace">0.33 un/dia</div>
+              <div class="tl-gmv y">R$ 5.802</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">20/04</div>
+              <div class="tl-id">5491113190</div>
+              <div class="tl-title">Coluna Direção Eixo Intermediário S10 Trailblazer 2012-</div>
+              <div class="tl-stock">Estoque: 9</div>
+              <div class="tl-pace">0.71 un/dia</div>
+              <div class="tl-gmv y">R$ 2.112</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">21/04</div>
+              <div class="tl-id">2089458148</div>
+              <div class="tl-title">Bomba Oleo Frontier Pathfinder 2.5 16v 2013 2014 2015 2</div>
+              <div class="tl-stock">Estoque: 3</div>
+              <div class="tl-pace">0.22 un/dia</div>
+              <div class="tl-gmv y">R$ 1.326</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">24/04</div>
+              <div class="tl-id">2079446998</div>
+              <div class="tl-title">Cabeçote Ea111 Gol Fox Crossfox Saveiro 1.6 8v 2005 A 2</div>
+              <div class="tl-stock">Estoque: 3</div>
+              <div class="tl-pace">0.18 un/dia</div>
+              <div class="tl-gmv y">R$ 1.446</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">25/04</div>
+              <div class="tl-id">4140580955</div>
+              <div class="tl-title">Par Terminal Direção Toro Compass Renegade 2015 A 2020</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv y">-</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">25/04</div>
+              <div class="tl-id">1945394358</div>
+              <div class="tl-title">Cruzeta Cardan F1000 F4000 F250 F350 Silverado 1982 A 2</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv y">-</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">5049011316</div>
+              <div class="tl-title">Ventilador Interno Ar Condicionado Frontier 2013 2014 A</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv y">-</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">4084009250</div>
+              <div class="tl-title">Eixo Virabrequim Amarok 2.0 16v Manual 03l105021d Novo</div>
+              <div class="tl-stock">Estoque: 4</div>
+              <div class="tl-pace">0.22 un/dia</div>
+              <div class="tl-gmv y">R$ 2.343</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">2683485789</div>
+              <div class="tl-title">Kit Corrente Distribuição Frontier 2.5 190cv 2013 A 201</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv y">-</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">2150172318</div>
+              <div class="tl-title">Bomba Oleo Motor 1gd Toyota Hilux 2.8 16v 2016 2017 201</div>
+              <div class="tl-stock">Estoque: 4</div>
+              <div class="tl-pace">0.22 un/dia</div>
+              <div class="tl-gmv y">R$ 1.453</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">4192441545</div>
+              <div class="tl-title">Bomba Oleo Motor 1gd Toyota Hilux 2.8 16v 2019 2020 202</div>
+              <div class="tl-stock">Estoque: 4</div>
+              <div class="tl-pace">0.22 un/dia</div>
+              <div class="tl-gmv y">-</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">5498354344</div>
+              <div class="tl-title">Par Disco Freio Tras Ventilado F250 F350 1999 A 2003</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv y">-</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">5466382266</div>
+              <div class="tl-title">Par Disco Traseiro Pajero Full 3.2 3.8 2007 2008 2009 A</div>
+              <div class="tl-stock">Estoque: 2</div>
+              <div class="tl-pace">0.11 un/dia</div>
+              <div class="tl-gmv y">-</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">26/04</div>
+              <div class="tl-id">2126005779</div>
+              <div class="tl-title">Bico Injetor S10 2.8 2009 2010 2011 2012 Mwm 0445110231</div>
+              <div class="tl-stock">Estoque: 6</div>
+              <div class="tl-pace">0.32 un/dia</div>
+              <div class="tl-gmv y">R$ 1.360</div>
+            </div><div class="tl-item caution">
+              <div class="tl-dot-date">28/04</div>
+              <div class="tl-id">5263374960</div>
+              <div class="tl-title">Coluna Direção Eixo Intermediário S10 2012 2013 2014 A </div>
+              <div class="tl-stock">Estoque: 27</div>
+              <div class="tl-pace">1.34 un/dia</div>
+              <div class="tl-gmv y">R$ 1.051</div>
+            </div></div></div>
+    </div>
+  </div>
+
+  <!-- SECAO 4: VISITAS CAINDO -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num purple">4</div>
+      <h2>Queda de Visitas - Marco vs Abril (projecao)</h2>
+    </div>
+    <p style="color:#777;font-size:12px;margin-bottom:12px;">
+      Itens com reducao de visitas projetadas em Abril vs Marco. Queda de visitas antecede queda de GMV — agir agora para recuperar trafego.
+    </p>
+    <div class="tbox">
+      <table>
+        <thead><tr><th>Item ID</th><th>Item</th><th>Visits Marco</th><th>Visits Abril (proj.)</th><th>Variacao</th><th>CVR Marco</th><th>CVR Abril</th><th>GMV Marco</th></tr></thead>
+        <tbody><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2636803240</td>
+          <td class="td-title">Bico Injetor S10 Trailblazer 2.8 Diesel 2012/2013 Bosch</td>
+          <td class="num">395</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">0.8%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 3.707</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3832847452</td>
+          <td class="td-title">Par Pivô Dianteiro Ld E Le Argo Cronos Strada 2017 A 2023</td>
+          <td class="num">220</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">6.8%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 2.279</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3930786729</td>
+          <td class="td-title">Kit Braço Pitman + Auxiliar S10 Blazer 1996 1998 1999 A 2011</td>
+          <td class="num">278</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">4.3%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 4.061</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4063659395</td>
+          <td class="td-title">Pastilha Freio Cerâmica Dianteira Polo Nivus Virtus T-cross</td>
+          <td class="num">88</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">1.1%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 273</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3239975457</td>
+          <td class="td-title">Bomba De Alta Fiat Toro 2.0 Renegade 2.0 Compass 2.0 Diesel</td>
+          <td class="num">204</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">2.5%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 24.153</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3311723365</td>
+          <td class="td-title">Pivô Dianteiro Direito Argo Cronos Strada 2017 2018 A 2023</td>
+          <td class="num">85</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">4.7%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 335</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2968791879</td>
+          <td class="td-title">Turbina Motor Multijet Toro Compass Renegade 2.0 2014/2020</td>
+          <td class="num">695</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">0.9%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 42.230</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2750452390</td>
+          <td class="td-title">Correia Alternador S10 Trailblazer 2.8 2012 2013 A 2022</td>
+          <td class="num">772</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">0.6%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 824</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3838724469</td>
+          <td class="td-title">Mangueira Tubo Cano Água Amarok 2.0 16v 2010 2011 A 2017</td>
+          <td class="num">198</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">2.8%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 1.826</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5384569270</td>
+          <td class="td-title">Manga Eixo Dianteiro Esquerdo Hilux Sw4 2.8 2016 A 2021</td>
+          <td class="num">66</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">4.5%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 1.978</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4759247760</td>
+          <td class="td-title">Cruzeta Cardan 27mm S10 Blazer Silverado F1000 F350 Hilux</td>
+          <td class="num">89</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">6.7%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 490</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5163475888</td>
+          <td class="td-title">Coxim Cambio Automático S10 Trailblazer 2.8 2012 2013 A 2019</td>
+          <td class="num">110</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">1.8%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 409</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4147237969</td>
+          <td class="td-title">Kit Corrente Comando Hb20 1.0 12v Picanto 1.0 3 Cilindros</td>
+          <td class="num">240</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">2.1%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 1.491</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4120164227</td>
+          <td class="td-title">Resfriador Óleo Trocador Calor Amarok 3.0 V6 2018 A 2022</td>
+          <td class="num">96</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">5.2%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 2.332</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4104112369</td>
+          <td class="td-title">Coroa E Pinhão A20 C20 D20 F1000 13x41 1985 1986 1987 À 1996</td>
+          <td class="num">114</td>
+          <td class="num">0</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">3.5%</td>
+          <td class="num">0.0%</td>
+          <td class="num">R$ 2.942</td>
+        </tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECAO 5: CVR CAINDO -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num purple">5</div>
+      <h2>Queda de Conversao (CVR) - Marco vs Abril</h2>
+    </div>
+    <p style="color:#777;font-size:12px;margin-bottom:12px;">
+      Itens com CVR em queda significativa em Abril. Causas comuns: preco fora de mercado, perda de Buy Box, fotos/titulo desatualizados, concorrente novo.
+    </p>
+    <div class="tbox">
+      <table>
+        <thead><tr><th>Item ID</th><th>Item</th><th>Visitas Marco</th><th>CVR Marco</th><th>CVR Abril</th><th>Variacao</th><th>GMV Marco</th></tr></thead>
+        <tbody><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1890832497</td>
+          <td class="td-title">Cilindro Mestre Freio Frontier 2.5 16v Td 2008/2012</td>
+          <td class="num">21</td>
+          <td class="num">4.76%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 241</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1897970644</td>
+          <td class="td-title">Semi Eixo L200 Triton 2008 A 2016 Pajero Dakar 2010 A 2018</td>
+          <td class="num">31</td>
+          <td class="num">3.23%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 863</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1898016200</td>
+          <td class="td-title">Terminal Direção Lado Esquerdo L200 Triton Pajero Full Dakar</td>
+          <td class="num">33</td>
+          <td class="num">27.27%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 1.267</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1946797978</td>
+          <td class="td-title">Bandeja Superior Esquerda A10 A20 C10 C20 D10 D20</td>
+          <td class="num">26</td>
+          <td class="num">7.69%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 809</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1974634817</td>
+          <td class="td-title">Biela Motor Amarok 2.0 16v Tdi Btdi 2010 2011 2012 A 2016</td>
+          <td class="num">26</td>
+          <td class="num">3.85%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 228</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1968580796</td>
+          <td class="td-title">Filtro Combustível Toyota Hilux Sw4 2.8 2016/2021</td>
+          <td class="num">41</td>
+          <td class="num">4.88%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 84</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1974900224</td>
+          <td class="td-title">Braço Auxiliar Direção Blazer S10 1995 1966 1997 A 2011 2012</td>
+          <td class="num">170</td>
+          <td class="num">2.35%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 1.478</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1974885895</td>
+          <td class="td-title">Braço Pitman Lado Esquerdo Dianteiro S10 Blazer 1996 A 2012</td>
+          <td class="num">167</td>
+          <td class="num">7.78%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 2.061</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2058537050</td>
+          <td class="td-title">Turbina Motor Toyota Hilux Sw4 3.0 Diesel 2005 A 2015</td>
+          <td class="num">64</td>
+          <td class="num">1.56%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 2.092</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2058552730</td>
+          <td class="td-title">Turbina Motor 4m41 L200 Triton Pajero Dakar 3.2 2008/2018</td>
+          <td class="num">23</td>
+          <td class="num">4.35%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 1.764</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1975077290</td>
+          <td class="td-title">Valvula Termostatica Vw Amarok Golf Tiguan Jetta Passat</td>
+          <td class="num">21</td>
+          <td class="num">4.76%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 87</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1992719474</td>
+          <td class="td-title">Cabeçote Frontier 2.5 16v 190cv 2013 2014 2015 2016 Yd25</td>
+          <td class="num">95</td>
+          <td class="num">1.05%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 2.042</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2060721337</td>
+          <td class="td-title">Bico Injetor Vw Amarok 2.0 2010/2011 Original Bosch</td>
+          <td class="num">56</td>
+          <td class="num">1.79%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 1.958</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2079685541</td>
+          <td class="td-title">Jogo Camisa Cilindro Motor Std Amarok 2.0 16v Tdi 2010/2021</td>
+          <td class="num">29</td>
+          <td class="num">3.45%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 264</td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2102422942</td>
+          <td class="td-title">Correia Alternador Toyota Hilux Sw4 3.0 16v 2005 A 2015</td>
+          <td class="num">24</td>
+          <td class="num">4.17%</td>
+          <td class="num">0.00%</td>
+          <td class="num"><span class="dn">▼ 100.0%</span></td>
+          <td class="num">R$ 74</td>
+        </tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECAO 6: EM ALTA -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num green">6</div>
+      <h2>Potencializar - Itens em Alta em Abril</h2>
+    </div>
+    <p style="color:#777;font-size:12px;margin-bottom:12px;">
+      Esses itens estao acima do ritmo de Marco. Garantir estoque, manter preco competitivo, priorizar em campanhas.
+    </p>
+    <div class="tbox">
+      <table>
+        <thead><tr><th>Item ID</th><th>Item</th><th>Estoque</th><th>GMV Marco</th><th>Projecao Abril</th><th>Variacao</th></tr></thead>
+        <tbody><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2060775648</td>
+          <td class="td-title">Bico Injetor Amarok 2.0 2010 2011 Original Bosch Novo</td>
+          <td class="num">0</td>
+          <td class="num">R$ 11.214</td>
+          <td class="num up">R$ 41.215</td>
+          <td class="num"><span class="up">▲ 267.5%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3347210091</td>
+          <td class="td-title">Cabeçote Frontier Yd25 2.5 16v 2007 2008 2009 2010 2011</td>
+          <td class="num">0</td>
+          <td class="num">R$ 7.022</td>
+          <td class="num up">R$ 20.007</td>
+          <td class="num"><span class="up">▲ 184.9%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5105751122</td>
+          <td class="td-title">Eixo Virabrequim Frontier 2.5 16v 2012 2013 2014 2015 2016</td>
+          <td class="num">4</td>
+          <td class="num">R$ 7.490</td>
+          <td class="num up">R$ 18.674</td>
+          <td class="num"><span class="up">▲ 149.3%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3778399614</td>
+          <td class="td-title">Cabecote Motor 1zz Corolla Fielder 1.8 16v Gasolin 2002/2007</td>
+          <td class="num">7</td>
+          <td class="num">R$ 2.034</td>
+          <td class="num up">R$ 13.888</td>
+          <td class="num"><span class="up">▲ 582.7%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5272153826</td>
+          <td class="td-title">Cabeçote Perkins 4236 4238 Q20b D10 D20 D40 Completo</td>
+          <td class="num">8</td>
+          <td class="num">R$ 3.578</td>
+          <td class="num up">R$ 13.626</td>
+          <td class="num"><span class="up">▲ 280.9%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2126005779</td>
+          <td class="td-title">Bico Injetor S10 2.8 2009 2010 2011 2012 Mwm 0445110231</td>
+          <td class="num">6</td>
+          <td class="num">R$ 6.022</td>
+          <td class="num up">R$ 12.748</td>
+          <td class="num"><span class="up">▲ 111.7%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4016831403</td>
+          <td class="td-title">Volante Bimassa Hilux 2.8 16v 2016 2017 Ate 2020 110 Dentes</td>
+          <td class="num">3</td>
+          <td class="num">R$ 2.172</td>
+          <td class="num up">R$ 8.283</td>
+          <td class="num"><span class="up">▲ 281.3%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2065478724</td>
+          <td class="td-title">Turbina Motor Yd25 Nissan Frontier 2.5 2008-2012 Euro 3</td>
+          <td class="num">5</td>
+          <td class="num">R$ 1.989</td>
+          <td class="num up">R$ 6.344</td>
+          <td class="num"><span class="up">▲ 219.0%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4044953652</td>
+          <td class="td-title">Par Disco Freio Ventilado Dianteiro Blazer S10 4x2 1997/2011</td>
+          <td class="num">8</td>
+          <td class="num">R$ 1.099</td>
+          <td class="num up">R$ 5.482</td>
+          <td class="num"><span class="up">▲ 398.9%</span></td>
+        </tr><tr>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2150390792</td>
+          <td class="td-title">Turbina Motor 4m40 Mitsubishi Pajero 2.8 2001 2002 2003 2004</td>
+          <td class="num">4</td>
+          <td class="num">R$ 2.689</td>
+          <td class="num up">R$ 4.626</td>
+          <td class="num"><span class="up">▲ 72.0%</span></td>
+        </tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECAO 7: CANDIDATOS FULL (FBM) -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num blue">7</div>
+      <h2>Enviar ao Full (FBM) - Aumentar Penetracao em +10pp em Abril</h2>
+    </div>
+    <p style="color:#777;font-size:12px;margin-bottom:14px;">
+      Penetracao FBM atual em Marco: <strong style="color:#1565C0;">20.2%</strong> do GMV.
+      Meta: <strong style="color:#00A650;">30.2%</strong> (+10pp).
+      GMV adicional de Full necessario: <strong style="color:#1565C0;">R$ 105.286</strong>.
+      Os 20 itens abaixo sao os mais impactantes para envio ao Full com base no GMV de Marco.
+      Ganho estimado com uplift de 15% de CVR/conversao: <strong style="color:#00A650;">+R$ 35.687</strong>
+      (nova penetracao estimada: <strong style="color:#00A650;">23.6%</strong>).
+    </p>
+    <div style="display:flex;gap:14px;margin-bottom:16px;flex-wrap:wrap;">
+      <div style="background:#E3F2FD;border-radius:8px;padding:12px 20px;flex:1;min-width:150px;">
+        <div style="font-size:10px;color:#1565C0;font-weight:700;text-transform:uppercase;">FBM Atual (Marco)</div>
+        <div style="font-size:24px;font-weight:900;color:#1565C0;">20.2%</div>
+        <div style="font-size:11px;color:#999;">R$ 212.711 GMV Full</div>
+      </div>
+      <div style="background:#E8F5E9;border-radius:8px;padding:12px 20px;flex:1;min-width:150px;">
+        <div style="font-size:10px;color:#2E7D32;font-weight:700;text-transform:uppercase;">Meta FBM (+10pp)</div>
+        <div style="font-size:24px;font-weight:900;color:#2E7D32;">30.2%</div>
+        <div style="font-size:11px;color:#999;">R$ 317.997 GMV Full</div>
+      </div>
+      <div style="background:#FFF8E1;border-radius:8px;padding:12px 20px;flex:1;min-width:150px;">
+        <div style="font-size:10px;color:#F57F17;font-weight:700;text-transform:uppercase;">Candidatos nao-FBM</div>
+        <div style="font-size:24px;font-weight:900;color:#F57F17;">20</div>
+        <div style="font-size:11px;color:#999;">R$ 237.898 GMV Marco</div>
+      </div>
+      <div style="background:#E8F5E9;border-radius:8px;padding:12px 20px;flex:1;min-width:150px;">
+        <div style="font-size:10px;color:#2E7D32;font-weight:700;text-transform:uppercase;">Ganho Estimado (+15%)</div>
+        <div style="font-size:24px;font-weight:900;color:#2E7D32;">+R$ 35.687</div>
+        <div style="font-size:11px;color:#999;">Penetracao proj: 23.6%</div>
+      </div>
+    </div>
+    <div class="tbox">
+      <table>
+        <thead><tr><th>#</th><th>Item ID</th><th>Item</th><th>Logistica Atual</th><th>Estoque</th><th>GMV Marco</th><th>Proj. Abril</th><th>Ticket Medio</th><th>Ganho FBM Est.</th></tr></thead>
+        <tbody><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">1</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4136261021</td>
+          <td class="td-title">Eixo Virabrequim Std Amarok 2.0 16v Automático 03g105212d</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">11</td>
+          <td class="num">R$ 34.444</td>
+          <td class="num">R$ 23.520</td>
+          <td class="num">2398</td>
+          <td class="num up">+R$ 5.167</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">2</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3945670725</td>
+          <td class="td-title">Cabeçote Ranger 3.2 20v 5cil 4x4 2012 2013 2014 2015 A 2020</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">21</td>
+          <td class="num">R$ 30.399</td>
+          <td class="num">R$ 0</td>
+          <td class="num">3465</td>
+          <td class="num up">+R$ 4.560</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">3</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3603979911</td>
+          <td class="td-title">Bomba De Alta Pressão Novo Bosch S10 2.8 180cv 0445010259</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 26.217</td>
+          <td class="num">R$ 0</td>
+          <td class="num">5492</td>
+          <td class="num up">+R$ 3.933</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">4</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3057441153</td>
+          <td class="td-title">Bomba Alta Pressão Range Rover Discovery Iv 3.0 V6 2009-2020</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">2</td>
+          <td class="num">R$ 20.500</td>
+          <td class="num">R$ 0</td>
+          <td class="num">11751</td>
+          <td class="num up">+R$ 3.075</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">5</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5534096826</td>
+          <td class="td-title">Chip De Potência Vortex1 Digipower Ranger 3.0 V6 2024 A 2026</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">11</td>
+          <td class="num">R$ 19.628</td>
+          <td class="num">R$ 0</td>
+          <td class="num">4149</td>
+          <td class="num up">+R$ 2.944</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">6</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2141978518</td>
+          <td class="td-title">Caixa Direção Hidráulica Hilux 3.0 4x4 2008 2009 2010 2011</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">6</td>
+          <td class="num">R$ 16.697</td>
+          <td class="num">R$ 9.557</td>
+          <td class="num">963</td>
+          <td class="num up">+R$ 2.505</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">7</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5263374960</td>
+          <td class="td-title">Coluna Direção Eixo Intermediário S10 2012 2013 2014 A 2020</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">27</td>
+          <td class="num">R$ 14.600</td>
+          <td class="num">R$ 2.415</td>
+          <td class="num">350</td>
+          <td class="num up">+R$ 2.190</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">8</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2150172318</td>
+          <td class="td-title">Bomba Oleo Motor 1gd Toyota Hilux 2.8 16v 2016 2017 2018</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">4</td>
+          <td class="num">R$ 9.243</td>
+          <td class="num">R$ 9.231</td>
+          <td class="num">1453</td>
+          <td class="num up">+R$ 1.386</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">9</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3096623159</td>
+          <td class="td-title">Caixa Direção Hidráulica Amarok Yokomitsu 2010 2011 A 2021</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">9</td>
+          <td class="num">R$ 7.952</td>
+          <td class="num">R$ 5.523</td>
+          <td class="num">1626</td>
+          <td class="num up">+R$ 1.193</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">10</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4404090087</td>
+          <td class="td-title">Cabeçote Corsa Montana Meriva 1.6 1.8 8v 98/12 Tucho Grosso</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 7.507</td>
+          <td class="num">R$ 0</td>
+          <td class="num">1381</td>
+          <td class="num up">+R$ 1.126</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">11</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4463044632</td>
+          <td class="td-title">Eixo Virabrequim Amarok 2.0 16v Manual 03l105021d Novo</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">11</td>
+          <td class="num">R$ 6.381</td>
+          <td class="num">R$ 0</td>
+          <td class="num">2439</td>
+          <td class="num up">+R$ 957</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">12</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4148787557</td>
+          <td class="td-title">Turbina Motor Hilux 2.8 16v Euro 6 Motor 2022 Em Diante</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">2</td>
+          <td class="num">R$ 5.910</td>
+          <td class="num">R$ 0</td>
+          <td class="num">5910</td>
+          <td class="num up">+R$ 886</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">13</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2736630504</td>
+          <td class="td-title">Turbina Pajero Sport Full 2.8 Motor 4m40 2001 2002 2003 2004</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">4</td>
+          <td class="num">R$ 5.337</td>
+          <td class="num">R$ 0</td>
+          <td class="num">1425</td>
+          <td class="num up">+R$ 801</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">14</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5324733492</td>
+          <td class="td-title">Eixo Virabrequim L200 Triton Sport 2.4 16v 4n15 2016 A 2025</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">4</td>
+          <td class="num">R$ 5.199</td>
+          <td class="num">R$ 0</td>
+          <td class="num">2777</td>
+          <td class="num up">+R$ 780</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">15</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">2748958256</td>
+          <td class="td-title">Cubo Roda Dianteiro Rolamento S10 Trailblazer 4x4 2017/2022</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">6</td>
+          <td class="num">R$ 5.187</td>
+          <td class="num">R$ 0</td>
+          <td class="num">597</td>
+          <td class="num up">+R$ 778</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">16</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">1901264398</td>
+          <td class="td-title">Cilindro Mestre Duplo A10 D10 A20 C20 D20 Veraneio 1980/1996</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 4.985</td>
+          <td class="num">R$ 1.168</td>
+          <td class="num">360</td>
+          <td class="num up">+R$ 748</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">17</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">5689510828</td>
+          <td class="td-title">Pneu Doublestar 225/60r18 100t Landrider Ds01 P/ Caminhonete H</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">3</td>
+          <td class="num">R$ 4.685</td>
+          <td class="num">R$ 0</td>
+          <td class="num">692</td>
+          <td class="num up">+R$ 703</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">18</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">3536389623</td>
+          <td class="td-title">Virabrequim Std Amarok 2.0 16v Automático 03g105212d Novo</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">11</td>
+          <td class="num">R$ 4.477</td>
+          <td class="num">R$ 0</td>
+          <td class="num">2373</td>
+          <td class="num up">+R$ 672</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">19</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">6273169208</td>
+          <td class="td-title">Par Pneu Prinx 315/45r22 Hr1 R/t 33x12.50r22 114q Q</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">2</td>
+          <td class="num">R$ 4.365</td>
+          <td class="num">R$ 0</td>
+          <td class="num">4365</td>
+          <td class="num up">+R$ 655</td>
+        </tr><tr>
+          <td style="text-align:center;font-weight:700;color:#1565C0;">20</td>
+          <td style="font-size:11px;color:#1565C0;font-weight:600;">4147329765</td>
+          <td class="td-title">Cabeçote Novo Amarok 2.0 16v Diesel 2010 A 2022 Motor Ea189</td>
+          <td><span class="badge blue">XD</span></td>
+          <td class="num">15</td>
+          <td class="num">R$ 4.184</td>
+          <td class="num">R$ 0</td>
+          <td class="num">2359</td>
+          <td class="num up">+R$ 628</td>
+        </tr></tbody>
+      </table>
+    </div>
+    <div style="background:#E3F2FD;border-radius:8px;padding:12px 18px;margin-top:12px;font-size:12px;color:#1565C0;">
+      <strong>Como enviar ao Full:</strong> Acesse o Seller Center &gt; Envios &gt; Criar envio Full (FBM) &gt; Selecionar os itens &gt; Embalar segundo as normas do ML &gt; Enviar ao CD mais proximo.
+      Itens Full entregam em 24-48h, melhoram posicionamento organico e CVR tipicamente entre 10-20%.
+    </div>
+  </div>
+
+  <!-- SECAO 8: LOGISTICA + CHECKLIST lado a lado -->
+  <div class="section">
+    <div class="sec-header">
+      <div class="sec-num">8</div>
+      <h2>Mix Logistico + Checklist de Acoes</h2>
+    </div>
+    <div class="two-col">
+      <div class="card">
+        <h3 style="font-size:15px;font-weight:700;margin-bottom:16px;color:#555;">Mix Logistico - Marco</h3>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+          <div style="min-width:120px;font-size:12px;color:#555;">Cross Docking</div>
+          <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;overflow:hidden;">
+            <div style="width:79%;height:100%;background:#1565C0;display:flex;align-items:center;padding-left:8px;font-size:11px;font-weight:700;color:#fff;border-radius:4px;">79.3%</div>
+          </div>
+          <div style="min-width:42px;text-align:right;font-weight:700;font-size:12px;">79.3%</div>
+        </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+          <div style="min-width:120px;font-size:12px;color:#555;">Full (FBM)</div>
+          <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;overflow:hidden;">
+            <div style="width:20%;height:100%;background:#00A650;display:flex;align-items:center;padding-left:8px;font-size:11px;font-weight:700;color:#fff;border-radius:4px;">20.2%</div>
+          </div>
+          <div style="min-width:42px;text-align:right;font-weight:700;font-size:12px;">20.2%</div>
+        </div><div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+          <div style="min-width:120px;font-size:12px;color:#555;">Otro</div>
+          <div style="flex:1;background:#f0f0f0;border-radius:4px;height:22px;overflow:hidden;">
+            <div style="width:0%;height:100%;background:#bbb;display:flex;align-items:center;padding-left:8px;font-size:11px;font-weight:700;color:#fff;border-radius:4px;">0.5%</div>
+          </div>
+          <div style="min-width:42px;text-align:right;font-weight:700;font-size:12px;">0.5%</div>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="font-size:15px;font-weight:700;margin-bottom:16px;color:#555;">Checklist de Acoes para Abril</h3>
+        <div class="ci"><div class="ci-icon r">🔴</div><div class="ci-text"><strong>HOJE - Reativar pausados prioritarios</strong><p>Os top 5 pausados representam R$ 113.910 em GMV. Verificar motivo da pausa e reativar com estoque disponivel.</p></div></div>
+        <div class="ci"><div class="ci-icon r">🔴</div><div class="ci-text"><strong>HOJE/AMANHA - Repor estoque critico</strong><p>4 itens ja estao em ruptura ou rompem nos proximos 3 dias. Acionar fornecedor imediatamente.</p></div></div>
+        <div class="ci"><div class="ci-icon o">🟡</div><div class="ci-text"><strong>ATE DIA 12 - Revisar anuncios zerados</strong><p>145 ativos sem venda em Abril. Checar preco vs concorrencia, fotos e titulo. Foco nos 54 com GMV acima de R$2k em Marco.</p></div></div>
+        <div class="ci"><div class="ci-icon o">🟡</div><div class="ci-text"><strong>ATE DIA 15 - Investigar queda de visitas e CVR</strong><p>15 itens com visitas em queda e 15 com CVR em queda. Revisar posicionamento no Buy Box e preco relativo.</p></div></div>
+        <div class="ci"><div class="ci-icon g">🟢</div><div class="ci-text"><strong>SEMANA 3 - Reposicao preventiva</strong><p>Planejar reposicao dos 18 itens que rompem na 3a e 4a semana. Lead time do fornecedor deve ser considerado.</p></div></div>
+        <div class="ci"><div class="ci-icon g">🟢</div><div class="ci-text"><strong>SEMANA 4 - Revisao final</strong><p>Verificar projecao de fechamento vs meta de Marco (R$ 1.052.865). Ajustar preco e campanhas nos itens que mais contribuem.</p></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- META -->
+  <div class="meta-bar">
+    <div style="flex:1;min-width:180px;">
+      <div style="font-size:11px;color:#aaa;margin-bottom:4px;">META - FECHAR IGUAL A MARCO</div>
+      <div style="font-size:26px;font-weight:900;color:#FFE600;">R$ 1.052.865</div>
+      <div style="font-size:12px;color:#aaa;margin-top:4px;">Faltam R$ 891.373 para bater o mes</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:11px;color:#aaa;">Acumulado</div>
+      <div style="font-size:22px;font-weight:700;">R$ 161.492</div>
+      <div style="font-size:11px;color:#FFE600;">15.3% da meta</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:11px;color:#aaa;">Projecao</div>
+      <div style="font-size:22px;font-weight:700;color:#FF5722;">R$ 605.595</div>
+      <div style="font-size:11px;color:#aaa;">57.5% da meta</div>
+    </div>
+    <div style="text-align:center;">
+      <div style="font-size:11px;color:#aaa;">Necessario/dia (22 dias)</div>
+      <div style="font-size:22px;font-weight:700;color:#FFE600;">R$ 40.517</div>
+      <div style="font-size:11px;color:#aaa;">Atual: R$ 20.186/dia</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  Gerado em 08/04/2026 15:43 · <span>CAMINHONETEECIA</span> · 524 itens analisados · Abril 2026
+</div>
+
+
+</body></html>
